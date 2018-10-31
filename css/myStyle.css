@@ -1,23 +1,95 @@
 .font1
 {
-  color: rgb(26, 102, 255);
-  font-family: Georgia;
-  border-bottom: 3.5px solid rgb(255, 210, 0);
+  color: #3355aa;
+  font-family: "Times New Roman", Times, serif,Georgia;
+  font-size: 16px;
+  border-bottom: 2.5px solid rgb(255, 210, 0);
   padding-bottom: 5px;
+  padding-top: 35px;
+}
+.font2{
+  color: #3355aa;
+  font-family: "Times New Roman", Times, serif,Georgia;
+  font-size: 16px;
+  border-bottom:none ;
+  text-align: center;
+}
+p{
+  font-size: 15px;
 }
 
-.h2{
+.card1{
+  height:300px;
+  background-color: rgb(235, 235, 224);
+  margin-bottom: 10px;
+}/*
+.ul{
+  margin-right: 40px;
+}*/
+.customHeading2{
   color:  rgb(72,72,72);
   font-family: "Times New Roman", Times, serif,Georgia;
   font-size: 35px;
   font-weight: 900;
   margin-top: 15px;
-  margin-right: 150px;
+  text-align: center;
 }
-.card1{
-  height:300px;
-  background-color: rgb(235, 235, 224);
+.customHeading{
+  margin-top: 20px;
 }
-.ul{
-  margin-right: 40px;
+.liColor{
+  color: #f0f8ff;
+  float: left;
+  margin-right: 20px;
+  border-left: 1px solid rgb(230,230,230);
+}
+.customUl{
+  list-style-type: none;
+  margin: 5px 0px 5px 0px;
+
+}
+.customNav{
+  background-color:#3355aa;
+}
+.customDiv{
+  border-bottom: 1px solid rgb(230,230,230);
+  height: 450px;
+}
+.borderContainer{
+ /* */
+  height: 450px;
+  border-spacing: 35px;
+}
+.bannerCard{
+  width: 50%;
+  margin-top:30px;
+  border-spacing: 35px;
+}
+.customImage{
+  margin:10px 10px 10px 0px;
+}
+.bannerParagraph{
+  font-size: 14px;
+  text-align: center;
+  padding-top: 10px;
+}
+form{
+  margin-top: 7px;
+}
+button{
+  width: 40px;
+  height:35px;
+}
+.cardStyle{
+  height: 380px;
+  padding: 15px;
+}
+.customeFooter{
+  background-color: rgb(56,56,56);
+  font:10px;
+}
+.liColor1{
+  color: rgb(152,152,152);
+  float: left;
+  margin-right: 20px;
 }

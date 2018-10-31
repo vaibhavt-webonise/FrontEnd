@@ -8,124 +8,125 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     </head>
     <body>
+    <div class="header customHeading">
       <div class="container">
-            <div class="row" style="margin-top: 30px;">
-              <div class="col-sm-3">
-                <img src="images/logo.png" alt="Paris">
-              </div>
-              <div class="col-sm-9"></div>
-            </div>
+        <h1 style="margin-left: 40px;">
+          <a href=""><img src="images/logo.png" alt="Paris"></a>
+        </h1>
       </div>
-      <div class="container-fluid " style="margin-top: 15px; width: auto; background-color: #3355aa;">
-            <nav class="navbar navbar-expand-sm " style=" height: 40px;">
-                <ul class="navbar-nav" >
-                    <li class="nav-item ul"><a class="nav-link" style="color: #f0f8ff;"  href="#">Sectors We Work in</a></li>
-                    <li class="nav-item ul"><a class="nav-link" style="color: #f0f8ff;"  href="#">Services</a></li>
-                    <li class="nav-item ul"><a class="nav-link" style="color: #f0f8ff;" href="#">Clients</a></li>
-                    <li class="nav-item ul"><a class="nav-link" style="color: #f0f8ff;" href="#">Research & Reports</a></li>
-                </ul>
-                <ul class="nav navbar-nav ml-auto" style="margin-right: 160px;">
-                      <li class="nav-item float-right" ></li>
-                            <form class="form-inline "  action="/action_page.php">
-                                <input class="form-control mr-sm-2 float-left" style=" height: 30px;" type="text" placeholder="Search">
-                              <button class="btn btn-primary" style="width: 40px; height:30px;  background-color: #blue; margin-left:30px;" type="submit">
-                                <i class="fa fa-search"></i></button>
-                            </form>
-                    </li>
-                </ul>
-            </nav>
-      </div>
-      <div class="card" position: absolute">
+      <nav class="customNav">
         <div class="container" >
           <div class="row">
-            <div class="card col-sm-4" style="margin: 35px 35px 45px -160px; height: 350px; width:450px;">
-              <img class="card-img-top" src="images/banner.jpg" alt="Card image" style="width:100%; margin-top:10px;">
-              <div class="card-body">
-                <p class="card-text">
-                    Lorem ipsum dolor sir amet, consectetur adispiscing elit.
-                    proin ut tellus nulla, a commodo leo.Lorem ipsum
-                    solor sit amet, consectetur adipiscing elit.
-                </p>
-              </div>
+            <ul class="col-md-8 customUl">
+              <li class="nav-item"><a class="nav-link liColor" href="#">Sectors We Work in</a></li>
+              <li class="nav-item"><a class="nav-link liColor" href="#">Services</a></li>
+              <li class="nav-item"><a class="nav-link liColor" href="#">Clients</a></li>
+              <li class="nav-item"><a class="nav-link liColor" href="#">Research & Reports</a></li>
+            </ul>
+            <div class="col-md-4">
+              <form class="form-inline float-right"  action="/action_page.php">
+              <input class="form-control mr-sm-2" style="width: 160px; height:35px;" type="text" placeholder="search">
+                <button class="btn btn-primary" type="submit">
+                <i class="fa fa-search"></i>
+                </button>
+              </form>
             </div>
-
-            <div class="col-sm-4" style="margin:35px 35px 70px 90px; height: 400px;">
-              <h6 class="font1">WHAT We Do?</h6>
-              <p>Microsave is a diversified development
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container borderContainer" >
+        <div class="row">
+              <div class="col-sm-6 bannerCard" >
+                  <div style="border: 1px solid rgb(152,152,152); padding: 10px;">
+                    <img class="card-img-top customImage" src="images/banner.jpg" alt="Card image" style="">
+                      <p class="bannerParagraph">
+                        Lorem ipsum dolor sir amet, consectetur adispiscing elit.
+                        proin ut tellus nulla, a commodo leo.Lorem ipsum
+                        solor sit amet, consectetur adipiscing elit.
+                      </p>
+                  </div>
+              </div>
+              <div class="col-sm-3" style="padding-left:45px; padding-bottom:10px;">
+                  <h4 class="font1"><b>WHAT WE DO?</b></h4>
+                  <p>Microsave is a diversified development
                   consultancy that works to better the
-                  lives of low-income people.</p><br>
-              <p>
+                  lives of low-income people.</p>
+                  <p>
                   Established in 1998 as a joint UNCD-D/DFID
                   project in East and Southern Africa, today we have
                   offices and staff in 24 countries around the world
-                  with headquarters in Lucknow, India</p><br><br><br>
-
-               <h6 class="font1">WHERE WE OPERATE?</h6>
-            </div>
-
-            <div class="col-sm-4" style="margin: 35px -70px 120px 10px; height: 400px;">
-              <h6 class="font1">ANNOUNCEMENTS</h6>
-              <p>Lorem ipsum dolor sit amet, contur
-                  adipscing elit mi eleifend</p>
-                  <p style="font-size: 10px;">By Amol on 21 July 2012</p>
+                  with headquarters in Lucknow, India</p>
+                  <h4 class="font1"><b>WHERE WE OPERATE</b></h4>
+              </div>
+              <div class="col-sm-3">
+                  <h4 class="font1"><b>ANNOUNCEMENTS</b></h4>
+                  <p>Lorem ipsum dolor sit amet, contur
+                  adipscing elit mi eleifend...
+                  <p style="font-size: 10px; padding: -10px ">By <strong>Amol</strong> on 21 July 2012</p>
+                  </p>
 
                   <p>Lorem ipsum dolor sit amet, contur
-                  adipscing elit mi eleifend</p>
-                  <p style="font-size: 10px;">By Amol on 21 July 2012</p>
+                  adipscing elit mi eleifend...
+                  <p style="font-size: 10px; padding: -10px ">By <strong>Amol</strong> on 21 July 2012</p>
+                  </p>
 
                   <p>Lorem ipsum dolor sit amet, contur
-                  adipscing elit mi eleifend</p>
-                  <p style="font-size: 10px;">By Amol on 21 July 2012</p><br>
-
-
-               <h6 style="color: blue; font-family: Georgia;">View More</h6>
-            </div>
-          </div>
+                  adipscing elit mi eleifend...
+                  <p style="font-size: 10px; padding-bottom: 20px ">By <strong>Amol</strong> on 21 July 2012</p>
+                  </p>
+                  <a style="font-family: Georgia;" href="#">View More</a>
+              </div>
         </div>
-      </div>
-      <div class="container" style="margin-left: 250px;">
-                  <h2 class="h2" style="margin-left: 350px;" >SECTORS WE WORK IN</h2>
-          <div class="row">
-            <div class="card col-sm-3" style="margin: 35px 35px 45px -160px; height: 400px; ">
-                     <br><h6 class="font1" style="border-bottom:none ; text-align: center;" >Microfinance and banking Panel Content</h6>
-                        <div class="card card1" style=""></div>
-            </div>
-
-             <div class="card col-sm-3" style="margin: 35px 25px 45px 1px; height: 400px; ">
-                    <br><h6 class="font1" style="border-bottom:none ; text-align: center;" >E/M Banking For <br> Financial Inclusion</h6>
-                        <div class="card" style="height:300px; background-color: rgb(235, 235, 224);"></div>
-            </div>
-
-            <div class="card col-sm-3" style="margin: 35px 85px 45px 15px; height: 400px; ">
-                     <br><h6 class="font1" style="border-bottom:none ; text-align: center;" >Private Sector <br> Development</h6>
-                        <div class="card" style="height:300px; background-color: rgb(235, 235, 224);"></div>
-            </div>
-
-            <div class="card col-sm-3" style="margin: 35px 10px 45px -40px; height: 400px; ">
-                    <br><h6 class="font1" style="border-bottom:none ; text-align: center;" >Small and Medium<br>Enterprise Financing</h6>
-                        <div class="card " style="height:300px; background-color: rgb(235, 235, 224);"></div>
-            </div>
-
-        </div>
-      </div>
-      <div class="container-fluid " style="background-color: rgb(56,56,56);">
-          <div class="row">
-            <nav class="navbar navbar-expand-sm " style=" height: 120px;">
-                <ul class="navbar-nav" style="margin-top: -40px; white-space:  30px; border-bottom: 1px solid rgb(120,120,120);">
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(255,255,255);"  href="#">Home |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);"  href="#">Services |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);" href="#">About |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);" href="#">Blog |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);" href="#">Contact</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152); margin-left: 450px;" href="#">Terms Of Use |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152)" href="#">Privacy |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);" href="#">Code of Business Conduct & ethics |</a></li>
-                    <li class="nav-item "><a class="nav-link" style="color: rgb(152,152,152);" href="#">Site Map</a></li>
-
-                </ul><br>
-                    <i style="margin:50px 30px 0px -1340px; color: rgb(89,89,89);" >Microsave &copy; 2012</i>
-            </nav>
+    </div>
+    <div style="border-top: 1px solid rgb(152,152,152); margin-top: 20px; ">
+          <div class="container" style="">
+              <h2 class="customHeading2">SECTORS WE WORK IN</h2>
+                    <ul class="row" style="list-style-type: none; padding:0px; margin-top:30px;">
+                        <li class="col-sm-3">
+                            <div class="card cardStyle">
+                              <a href="#"> <h6 class="font2" >Microfinance and banking Panel Content</h6>
+                                <div class="card card1"></div></a>
+                        </li>
+                         <li class="col-sm-3">
+                            <div class="card cardStyle">
+                                <a href="#"><h6 class="font2">E/M Banking For Financial Inclusion</h6>
+                                <div class="card card1"></div></a>
+                            </div>
+                        </li>
+                         <li class="col-sm-3">
+                            <div class="card cardStyle">
+                                <a href="#"><h6 class="font2" >Private Sector  Development    </h6>
+                                <div class="card card1" style="margin-top:30px;"></div></a>
+                            </div>
+                        </li>
+                         <li class="col-sm-3">
+                            <div class="card cardStyle">
+                                <a href="#"><h6 class="font2">Small and Medium Enterprise Financing</h6>
+                                <div class="card card1"></div></a>
+                            </div>
+                        </li>
+                    </ul>
           </div>
-      </div>
-</body>
+    </div>
+    <footer style="margin-top: 40px;  ">
+         <nav class="customeFooter" style="border-bottom: 1px solid rgb(230,230,230);">
+            <div class="container" >
+                <div class="row">
+                    <ul class="col-md-8 customUl">
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Home</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Services</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">About</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Blog</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Contact</a></li>
+                      <!-- <li class="nav-item float-right"><a class="nav-link liColor1" href="#">Privacy</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Code of Business Conduct & ethics |</a></li>
+                      <li class="nav-item"><a class="nav-link liColor1" href="#">Site Map</a></li> -->
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </nav>
+    </footer>
+  </body>
 </html>
